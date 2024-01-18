@@ -1,9 +1,11 @@
+import "../web-components/tobago-iframe";
+
 function Tobago() {
   return (
       <div>
         <h1>Tobago</h1>
-        <p>This page should load a web component.</p>
-        <i>Not implemented yet.</i>
+        <tobago-iframe/>
+        <p>didn't work right now...</p>
       </div>
   );
 }
